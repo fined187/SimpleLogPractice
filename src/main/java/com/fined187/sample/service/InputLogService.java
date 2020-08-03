@@ -12,9 +12,7 @@ import java.nio.file.Paths;
 public class InputLogService {
 
     public InputLog getInputLog(String fileName) {
-
-//        파일을 읽어서 String, Buffer --> InputLog 변환.
-
+//  파일을 읽어서 String, Buffer --> InputLog 변환.
         String filePath = PathUtils.getPathUtils("samplelog.log");
         try {
             Files.lines(Paths.get(filePath));

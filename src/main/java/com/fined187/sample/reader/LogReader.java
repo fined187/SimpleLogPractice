@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class LogReader
-{
-
+public class LogReader {
     public List<String> fileReader(String fileName) {
         List<String> result = new ArrayList<>();
         String filePath = PathUtils.getPathUtils(fileName);
