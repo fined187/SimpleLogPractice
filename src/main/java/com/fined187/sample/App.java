@@ -19,6 +19,9 @@ public class App {
                 .filter(wl -> wl.contains("IE"))
                 .map(wl -> wl.toString())
                 .collect(Collectors.toList());
-        webList.forEach(System.out::println);
+
+         webList.replaceAll(l -> l.replaceAll("]", "/").replace("[", " "));
+
+//         webList.forEach(System.out::println);
     }
 }
