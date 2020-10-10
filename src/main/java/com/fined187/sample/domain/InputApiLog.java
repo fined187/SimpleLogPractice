@@ -1,5 +1,6 @@
 package com.fined187.sample.domain;
 
+import com.fined187.sample.enums.HttpStatus;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -9,8 +10,8 @@ import java.time.LocalDateTime;
 @Getter
 @Builder
 public class InputApiLog {
-    private String code;
+    private HttpStatus code;
     private URL url;
-    private String WebBrowser;
+    private String webBrowser;
     private LocalDateTime accessTime;
 }

@@ -1,10 +1,7 @@
-package com.sskim.loganalysis.mapper;
+package com.fined187.sample.mapper;
 
 import com.fined187.sample.domain.InputApiLog;
 import com.fined187.sample.enums.HttpStatus;
-import com.fined187.sample.mapper.Mapper;
-import com.sskim.loganalysis.domain.InputApiLog;
-import com.sskim.loganalysis.enums.HttpStatus;
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.MalformedURLException;

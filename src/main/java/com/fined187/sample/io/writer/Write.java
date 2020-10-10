@@ -1,5 +1,5 @@
 package com.fined187.sample.io.writer;
 
-public interface Writer<T> {
+public interface Write<T> {
     void write(String filePath, T object);
 }
