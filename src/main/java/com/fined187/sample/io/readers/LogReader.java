@@ -1,4 +1,4 @@
-package com.fined187.sample.io.reader;
+package com.fined187.sample.io.readers;
 
 import java.util.List;
 
